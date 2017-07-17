@@ -22,4 +22,14 @@ Example of a ride that was down:
 **7. We need to clean up a file.  Find all the places with double quotes ("") and replace them with single quotes ()")**
 
 **8. Find all the unique ride names**
- 
+
+---
+### Notes
+
+answers file is encrypted.  Decrypt with: 
+openssl des -d -in answers.md.enc -out answers.md
+
+Encrypted with:
+openssl des -in answers.md -out answers.md.enc
+
+[How to encrypt files from the command line on the Apple Mac using OpenSSL | RAW Mac](http://www.rawinfopages.com/mac/content/how-encrypt-files-command-line-apple-mac-using-openssl)
